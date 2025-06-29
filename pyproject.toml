@@ -1,9 +1,13 @@
 [project]
 name = "fastapi-docker-uv-vs-requirements-file"
 version = "1.0.0"
-description = ""
+description = "A FastAPI starter project with user management features, containerized using Docker in two distinct setups. One version uses the traditional requirements.txt with pip, while the other leverages the modern uv package manager for faster and more reproducible Python dependency management."
 readme = "README.md"
 requires-python = ">=3.8"
+license = {text = "MIT"}
+authors = [
+   {name = "ysskrishna", email = "sivasaikrishnassk@gmail.com"}
+]
 classifiers = [
     "Development Status :: 5 - Production/Stable",
     "Intended Audience :: Developers",
@@ -17,6 +21,20 @@ classifiers = [
     "Topic :: Internet :: WWW/HTTP :: Dynamic Content",
     "Topic :: Internet :: WWW/HTTP :: WSGI :: Application",
     "Framework :: FastAPI",
+]
+keywords = [
+    "fastapi",
+    "docker",
+    "uv",
+    "python",
+    "api",
+    "backend",
+    "user-management",
+    "authentication",
+    "web-framework",
+    "rest-api",
+    "containerization",
+    "dependency-management"
 ]
 dependencies = [
     "anyio==4.3.0",
@@ -45,3 +63,11 @@ dependencies = [
     "urllib3>=2.2.3",
     "uvicorn==0.22.0",
 ]
+
+
+[project.urls]
+Homepage = "https://github.com/ysskrishna/fastapi-docker-uv-vs-requirements-file"
+Documentation = "https://github.com/ysskrishna/fastapi-docker-uv-vs-requirements-file#readme"
+Repository = "https://github.com/ysskrishna/fastapi-docker-uv-vs-requirements-file.git"
+Issues = "https://github.com/ysskrishna/fastapi-docker-uv-vs-requirements-file/issues"
+"Bug Tracker" = "https://github.com/ysskrishna/fastapi-docker-uv-vs-requirements-file/issues"

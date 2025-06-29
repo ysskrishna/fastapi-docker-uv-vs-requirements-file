@@ -1,0 +1,13 @@
+services:    
+  backend-requirementsfile:
+    build:
+      context: .
+      dockerfile: Dockerfile.requirementsfile
+    ports:
+      - "8081:8081"
+    healthcheck:
+      test: ["CMD-SHELL", "python -c 'import urllib.request; urllib.request.urlopen(\"http://localhost:8081\")' || exit 1"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s

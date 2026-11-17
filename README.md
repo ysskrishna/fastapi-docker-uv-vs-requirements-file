@@ -1,5 +1,7 @@
 # FastAPI Docker UV vs Requirements File Comparison
 
+[![License: MIT](https://img.shields.io/github/license/ysskrishna/fastapi-docker-uv-vs-requirements-file)](https://github.com/ysskrishna/fastapi-docker-uv-vs-requirements-file/blob/main/LICENSE) [![Author site](https://img.shields.io/badge/author-ysskrishna.space-informational)](https://ysskrishna.space)
+
 
 A FastAPI starter project with user management features, containerized using Docker in two distinct setups. One version uses the traditional requirements.txt with pip, while the other leverages the modern uv package manager for faster and more reproducible Python dependency management. 
 
@@ -77,6 +79,32 @@ The project demonstrates two different approaches to Python dependency managemen
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
+## Built and maintained by
+
+FastAPI Docker UV vs Requirements File Comparison is built and maintained by:
+
+| | Name | GitHub | Role |
+|---|------|--------|------|
+| <img src="https://github.com/ysskrishna.png?size=120" width="60" height="60" alt="Y. Siva Sai Krishna"> | **Y. Siva Sai Krishna** | [@ysskrishna](https://github.com/ysskrishna) | Creator |
+
+## Support
+
+If you find this project helpful:
+
+- ⭐ Star the repository
+- 🐛 [Report issues](https://github.com/ysskrishna/fastapi-docker-uv-vs-requirements-file/issues)
+- 🔀 Submit pull requests
+- 💝 [Sponsor on GitHub](https://github.com/sponsors/ysskrishna)
+
 ## License
 
-This template is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+MIT © [Y. Siva Sai Krishna](https://github.com/ysskrishna) — see [LICENSE](LICENSE) for details.
+
+---
+
+<p align="left">
+  <a href="https://github.com/ysskrishna">Author's GitHub</a> •
+  <a href="https://linkedin.com/in/ysskrishna">Author's LinkedIn</a> •
+  <a href="https://ysskrishna.space">Author's site</a> •
+  <a href="https://github.com/ysskrishna/fastapi-docker-uv-vs-requirements-file/issues">Report Issues</a>
+</p>
